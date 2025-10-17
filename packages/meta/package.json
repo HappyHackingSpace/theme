@@ -1,6 +1,6 @@
 {
-  "name": "@hackclub/meta",
-  "description": "Generate meta tags for Hack Club pages",
+  "name": "@happyhackingspace/meta",
+  "description": "Generate meta tags for Happy Hacking Space pages",
   "version": "1.1.33",
   "source": "src/index.js",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hackclub/theme.git",
+    "url": "https://github.com/happyhackingspace/theme.git",
     "directory": "packages/meta"
   },
   "peerDependencies": {

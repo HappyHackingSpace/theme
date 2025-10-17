@@ -5,19 +5,19 @@ const makeTitle = (title, name) =>
 
 const Meta = ({
   as: ElementType = React.Fragment,
-  name = 'Hack Club', // site name
-  title = 'Hack Club', // page title
+  name = 'Happy Hacking Space', // site name
+  title = 'Happy Hacking Space', // page title
   description,
   image,
   color = '#ec3750',
-  manifest = 'https://assets.hackclub.com/favicons/site.webmanifest',
+  manifest = 'https://assets.happyhacking.space/favicons/site.webmanifest',
   children
 }) => (
   <ElementType>
     <meta key="og_locale" property="og:locale" content="en_US" />
     <meta key="og_type" property="og:type" content="website" />
     <meta key="og_site" property="og:site_name" content={name} />
-    <meta key="tw_site" name="twitter:site" content="@hackclub" />
+    <meta key="tw_site" name="twitter:site" content="@happyhackings" />
     <title key="title">{makeTitle(title, name)}</title>
     <meta key="og_title" property="og:title" content={makeTitle(title, name)} />
     <meta
@@ -44,7 +44,7 @@ const Meta = ({
     <link
       key="safari_icon"
       rel="mask-icon"
-      href="https://assets.hackclub.com/favicons/safari-pinned-tab.svg"
+      href="https://assets.happyhacking.space/favicons/safari-pinned-tab.svg"
       color={color}
     />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -52,25 +52,25 @@ const Meta = ({
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="https://assets.hackclub.com/favicons/favicon-16x16.png"
+      href="https://assets.happyhacking.space/favicons/favicon-16x16.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="https://assets.hackclub.com/favicons/favicon-32x32.png"
+      href="https://assets.happyhacking.space/favicons/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="48x48"
-      href="https://assets.hackclub.com/favicons/favicon-48x48.png"
+      href="https://assets.happyhacking.space/favicons/favicon-48x48.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="64x64"
-      href="https://assets.hackclub.com/favicons/favicon-64x64.png"
+      href="https://assets.happyhacking.space/favicons/favicon-64x64.png"
     />
     {manifest && <link key="manifest" rel="manifest" href={manifest} />}
     {children}
