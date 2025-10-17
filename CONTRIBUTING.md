@@ -1,6 +1,6 @@
 # Contributing
 
-Hey—thanks for your interest in contributing! We follow the [Hack Club Code of Conduct](https://hackclub.com/conduct/), so please be kind and reach out if you have any questions or concerns.
+Hey—thanks for your interest in contributing! We follow the [Happy Hacking Space Code of Conduct](https://happyhacking.space/conduct/), so please be kind and reach out if you have any questions or concerns.
 
 ## Local Development
 
@@ -19,13 +19,13 @@ After yarn has linked packages and installed dependences in the repo, you can ru
 yarn workspace <name-of-package> <command>
 ```
 
-Where name of package is something like `@hackclub/theme` or `@hackclub/meta` (one of the packages
+Where name of package is something like `@happyhackingspace/theme` or `@happyhackingspace/meta` (one of the packages
 listed by yarn when you run the `yarn workspaces info` command)
 
 Example:
 
 ```bash
-yarn workspace @hackclub/meta prepare
+yarn workspace @happyhackingspace/meta prepare
 ```
 
 ## Tests

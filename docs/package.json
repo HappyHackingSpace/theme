@@ -1,5 +1,5 @@
 {
-  "name": "@hackclub/theme-docs",
+  "name": "@happyhackingspace/theme-docs",
   "version": "0.0.1",
   "author": "Lachlan Campbell (https://lachlanjc.me) <lachlan@hackclub.com>",
   "license": "MIT",
@@ -10,8 +10,8 @@
     "start": "yarn run dev"
   },
   "dependencies": {
-    "@hackclub/meta": "^1.0.0",
-    "@hackclub/theme": "^0.3.1",
+    "@happyhackingspace/meta": "^1.0.0",
+    "@happyhackingspace/theme": "^0.3.1",
     "@mdx-js/loader": "^1.6.21",
     "@next/mdx": "^10.0.1",
     "@theme-ui/style-guide": "^0.3.3",

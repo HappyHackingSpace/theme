@@ -20,28 +20,28 @@ import {
   Textarea
 } from 'theme-ui'
 import Head from 'next/head'
-import Meta from '@hackclub/meta'
-import theme from '@hackclub/theme'
+import Meta from '@happyhackingspace/meta'
+import theme from '@happyhackingspace/theme'
 import ColorSwitcher from '../components/color-switcher'
 import { TypeScale, ColorPalette } from '@theme-ui/style-guide'
 
 const DocsPage = () => (
   <>
     <Head>
-      <title>Hack Club Theme</title>
+      <title>Happy Hacking Space Theme</title>
       <Meta
         name="Theme"
-        description="Hack Club’s theme + React components for Theme UI"
+        description="Happy Hacking Space’s theme + React components for Theme UI"
       />
     </Head>
     <Box as="header" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
         <ColorSwitcher />
         <Heading as="h1" variant="title" color="red">
-          Hack Club Theme
+          Happy Hacking Space Theme
         </Heading>
         <Text as="p" variant="subtitle" mt={3}>
-          <Link href="https://hackclub.com/">Hack Club’s</Link> theme + React
+          <Link href="https://happyhacking.space/">Happy Hacking Space’s</Link> theme + React
           components for <Link href="https://theme-ui.com">Theme UI</Link>.
         </Text>
         <Grid
@@ -56,11 +56,11 @@ const DocsPage = () => (
             a: { color: 'muted', transition: 'color .125s ease-in-out' }
           }}
         >
-          <NavLink href="https://github.com/hackclub/theme">GitHub</NavLink>
-          <NavLink href="https://npmjs.com/package/@hackclub/theme">
+          <NavLink href="https://github.com/happyhackingspace/theme">GitHub</NavLink>
+          <NavLink href="https://npmjs.com/package/@happyhackingspace/theme">
             NPM
           </NavLink>
-          <NavLink href="https://github.com/hackclub/theme-starter">
+          <NavLink href="https://github.com/happyhackingspace/theme-starter">
             Starter
           </NavLink>
         </Grid>
@@ -106,11 +106,11 @@ const DocsPage = () => (
           <p>
             This is a whole paragraph of text, include{' '}
             <code>code like this</code>, as well as{' '}
-            <a href="https://hackclub.com/">
+            <a href="https://happyhacking.space/">
               <code>linked code</code>
             </a>
             {' & '}
-            <a href="https://hackclub.com/">regular links</a>. The paragraph
+            <a href="https://happyhacking.space/">regular links</a>. The paragraph
             ended up being 1 sentence, but now I guess it’s <strong>two</strong>
             .
           </p>
@@ -169,7 +169,7 @@ const DocsPage = () => (
             <Input placeholder="Zach Latta" />
           </Label>
           <Label>
-            How are you primarily associated with Hack Club?
+            How are you primarily associated with Happy Hacking Space?
             <Select>
               <option value="" disabled hidden>
                 Select one…
@@ -177,7 +177,7 @@ const DocsPage = () => (
               <option value="club-leader">I lead a club</option>
               <option value="club-member">I am a club member</option>
               <option value="slack-member">I am active on Slack</option>
-              <option value="alum">I am a Hack Club alum</option>
+              <option value="alum">I am a Happy Hacking Space alum</option>
               <option value="none">None of the above</option>
             </Select>
           </Label>
