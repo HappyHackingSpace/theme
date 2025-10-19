@@ -1,4 +1,5 @@
 {
+  "name": "@happyhackingspace/theme-monorepo",
   "private": true,
   "scripts": {
     "prepare": "lerna run prepare",
