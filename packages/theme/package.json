@@ -1,6 +1,6 @@
 {
-  "name": "@hackclub/theme",
-  "description": "Hack Club’s theme for Theme UI websites",
+  "name": "@happyhackingspace/theme",
+  "description": "Happy Hacking Space’s theme for Theme UI websites",
   "version": "0.3.3",
   "author": "Lachlan Campbell <lachlan@hackclub.com> (https://lachlanjc.com)",
   "source": "src/index.ts",
