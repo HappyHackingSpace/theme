@@ -1,7 +1,7 @@
 {
   "name": "@happyhackingspace/meta",
   "description": "Generate meta tags for Happy Hacking Space pages",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "source": "src/index.js",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
