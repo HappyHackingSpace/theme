@@ -1207,12 +1207,18 @@
     unique-filename "^1.1.1"
     which "^1.3.1"
 
+"@happyhackingspace/banner@file:/home/acer/Desktop/Hhs/theme/packages/banner":
+  version "0.0.2"
+  resolved "file:packages/banner"
+  dependencies:
+    prop-types "^15.8.1"
+
 "@happyhackingspace/meta@file:/home/acer/Desktop/Hhs/theme/packages/meta":
-  version "0.0.0"
+  version "0.0.2"
   resolved "file:packages/meta"
 
 "@happyhackingspace/theme@file:/home/acer/Desktop/Hhs/theme/packages/theme":
-  version "0.0.0"
+  version "0.0.2"
   resolved "file:packages/theme"
   dependencies:
     theme-ui "^0.14.5"
@@ -6576,7 +6582,7 @@ lodash@^4.17.12, lodash@^4.17.15, lodash@^4.2.1, lodash@^4.7.0:
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-loose-envify@^1.1.0:
+loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -8161,6 +8167,15 @@ promzard@^0.3.0:
   dependencies:
     read "1"
 
+prop-types@^15.8.1:
+  version "15.8.1"
+  resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
+  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.13.1"
+
 proto-list@~1.2.1:
   version "1.2.4"
   resolved "https://registry.npmjs.org/proto-list/-/proto-list-1.2.4.tgz"
@@ -8247,6 +8262,11 @@ react-dom@^18.0.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-is@^16.13.1:
+  version "16.13.1"
+  resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
+  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
 react-is@^16.7.0:
   version "16.13.1"

@@ -13,6 +13,7 @@ projects is [available here](https://github.com/happyhackingspace/css).
 
 1. `@happyhackingspace/theme` – Theme UI base theme
 2. `@happyhackingspace/meta` – React component for generating social tags for `<head>`
+3. `@happyhackingspace/banner` – React component for adding a Happy Hacking Space banner to your site
 
 ## Docs
 
