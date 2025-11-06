@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Banner = ({ year = new Date().getFullYear(), style, ...props }) => (
-  <a href="https://hackclub.com/" target="_blank" {...props}>
+  <a href="https://happyhacking.space/" target="_blank" {...props}>
     <img
       style={{
         width: '230px',
@@ -13,8 +13,8 @@ const Banner = ({ year = new Date().getFullYear(), style, ...props }) => (
         zIndex: '999',
         ...style
       }}
-      src={`https://assets.hackclub.com/banners/${year}.svg`}
-      alt="Hack Club"
+      src={`https://assets.happyhacking.space/banners/${year}.svg`}
+      alt="Happy Hacking Space Banner"
     />
   </a>
 )
