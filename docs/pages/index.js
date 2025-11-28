@@ -60,9 +60,9 @@ const DocsPage = () => (
           <NavLink href="https://npmjs.com/package/@happyhackingspace/theme">
             NPM
           </NavLink>
-          <NavLink href="https://github.com/happyhackingspace/theme-starter">
+          {/* <NavLink href="https://github.com/happyhackingspace/theme-starter">
             Starter
-          </NavLink>
+          </NavLink> */}
         </Grid>
       </Container>
     </Box>
