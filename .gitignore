@@ -6,3 +6,5 @@ dist
 coverage
 .DS_Store
 howcan.txt
+.env.local
+.vercel
