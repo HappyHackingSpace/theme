@@ -49,7 +49,7 @@ export default () => {
             WebkitTextFillColor: 'transparent'
           }}
         >
-          Hack Club
+          Happy Hacking Space
         </Text>{' '}
         <Text
           as="span"
