@@ -1,0 +1,50 @@
+{
+  "name": "@happyhackingspace/markdown",
+  "description": "Render Markdown to HTML, Happy Hacking Space-style",
+  "version": "0.0.1",
+  "author": "Lachlan Campbell <lachlan@hackclub.com> (https://lachlanjc.me)",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
+  "sideEffects": false,
+  "scripts": {
+    "test": "ava",
+    "prepare": "rm -rf ./dist && microbundle --external none",
+    "watch": "microbundle watch --no-compress --external none",
+    "build": "yarn prepare && cd docs && yarn build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/happyhackingspace/theme.git",
+    "directory": "packages/markdown"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@mapbox/rehype-prism": "^0.5.0",
+    "caniuse-lite": "^1.0.30001282",
+    "github-slugger": "^1.3.0",
+    "hast-util-sanitize": "^3.0.2",
+    "mdast-util-to-string": "^2.0.0",
+    "next": "^10.0.4",
+    "rehype": "^12.0.0",
+    "rehype-raw": "^5.0.0",
+    "rehype-sanitize": "^4.0.0",
+    "rehype-stringify": "^8.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-rehype": "^8.0.0",
+    "unified": "^9.2.0",
+    "unist-util-remove": "^2.0.1",
+    "unist-util-visit": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "ava": "^3.14.0",
+    "microbundle": "^0.13.0"
+  }
+}
