@@ -7,8 +7,8 @@ const Meta = ({
   as: ElementType = React.Fragment,
   name = 'Happy Hacking Space', // site name
   title = 'Happy Hacking Space', // page title
-  description,
-  image,
+  description = 'Happy Hacking Space is a nonprofit network of hackers, crafters, explorers where people build the agency, the network, & the technical talent to think big & do big things in the world.',
+  image = 'https://assets.happyhacking.space/flag-standalone.png',
   color = '#ec3750',
   manifest = 'https://assets.happyhacking.space/favicons/site.webmanifest',
   children
