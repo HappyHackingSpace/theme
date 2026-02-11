@@ -1,7 +1,7 @@
 {
   "name": "@happyhackingspace/markdown",
   "description": "Render Markdown to HTML, Happy Hacking Space-style",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Lachlan Campbell <lachlan@hackclub.com> (https://lachlanjc.me)",
   "source": "src/index.js",
   "main": "dist/index.js",

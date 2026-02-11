@@ -1,7 +1,7 @@
 {
   "name": "@happyhackingspace/banner",
   "description": "Happy Hacking Space banner component for React websites",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Lachlan Campbell <lachlan@hackclub.com> (https://lachlanjc.com)",
   "source": "src/index.js",
   "main": "dist/index.js",
